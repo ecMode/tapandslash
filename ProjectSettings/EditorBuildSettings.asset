@@ -4,4 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Select Character.unity
+  - enabled: 1
+    path: Assets/Scenes/Home.unity
+  - enabled: 1
+    path: Assets/Scenes/CreateCharacter.unity
+  - enabled: 0
+    path: Assets/Scenes/Select Character.unity
+  - enabled: 0
+    path: Assets/Scenes/CreateCharacter.unity

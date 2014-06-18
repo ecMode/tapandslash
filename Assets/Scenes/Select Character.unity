@@ -349,6 +349,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 808868438}
   - 212: {fileID: 808868439}
+  - 114: {fileID: 808868440}
+  - 65: {fileID: 808868441}
   m_Layer: 0
   m_Name: BlankSquare1
   m_TagString: Untagged
@@ -390,6 +392,29 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: ab39c09665446464fbf650ef30e9b071, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &808868440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 808868437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78f255e44990548a898e15d98b93bc99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &808868441
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 808868437}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 9, y: 9, z: .200000003}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &965190286
 GameObject:
   m_ObjectHideFlags: 0
@@ -515,6 +540,7 @@ GameObject:
   - 4: {fileID: 1527840549}
   - 212: {fileID: 1527840551}
   - 114: {fileID: 1527840550}
+  - 65: {fileID: 1527840552}
   m_Layer: 0
   m_Name: Create Button
   m_TagString: Untagged
@@ -567,6 +593,18 @@ SpriteRenderer:
   m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: 5e0251aead5dd438ebe3ca17c450f4d9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!65 &1527840552
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1527840548}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 25.9200001, y: 19.4400005, z: .200000003}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1548280239
 GameObject:
   m_ObjectHideFlags: 0
